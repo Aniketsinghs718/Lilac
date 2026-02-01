@@ -7,28 +7,30 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        beige: {
-          50: '#f5f1ec',
-          100: '#ebe4da',
-          200: '#e0d7ca',
-          300: '#d4c9ba',
+        cream: {
+          50: '#faf8f5',
+          100: '#f7f3ee',
+          200: '#ede7df',
+          300: '#e3dcd1',
         },
-        darkGreen: {
-          DEFAULT: '#3d4a3d',
-          light: '#5a6b5a',
+        terracotta: {
+          DEFAULT: '#d4735e',
+          light: '#e08c78',
+          dark: '#b85c47',
         },
         sage: {
-          100: '#d4d9d0',
-          200: '#b8c0b3',
+          DEFAULT: '#7a9e7e',
+          light: '#95b599',
+          dark: '#5f8263',
         },
-        lilac: {
-          100: '#d8c8d8',
-          200: '#c4b4c4',
+        charcoal: {
+          DEFAULT: '#2c3333',
+          light: '#3f4a4a',
         }
       },
       fontFamily: {
-        'display': ['Outfit', 'sans-serif'],
-        'body': ['Inter', 'sans-serif'],
+        'display': ['var(--font-playfair)', 'serif'],
+        'body': ['var(--font-poppins)', 'sans-serif'],
       },
       clipPath: {
         arch: 'ellipse(50% 100% at 50% 0%)',

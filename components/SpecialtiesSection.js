@@ -3,28 +3,28 @@ import Image from 'next/image';
 const SpecialtiesSection = () => {
   const specialties = [
     {
-      title: "Self-Esteem",
-      description: "Building a strong sense of self-worth is key to living a fulfilled life. Let's work together to bolster your self-esteem.",
-      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80"
+      title: "Anxiety & Panic",
+      description: "If you're caught in cycles of worry, overthinking, or feeling constantly on edge, we'll work together to help you regulate your nervous system and find genuine calm beyond just managing symptoms.",
+      image: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&q=80"
     },
     {
-      title: "Relationships",
-      description: "Navigating relationships can be complex. I'm here to guide you through these complexities to help you form healthier connections.",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&q=80"
+      title: "Trauma & PTSD",
+      description: "Using EMDR and trauma-focused approaches, we'll address how past experiences affect your present relationships, confidence, and sense of safety—paced carefully with emphasis on stabilization and regulation.",
+      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80"
     },
     {
-      title: "Burnout",
-      description: "Feeling overwhelmed by your career is more common than you think. Together, we'll identify strategies to manage and prevent burnout.",
-      image: "https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?w=800&q=80"
+      title: "Burnout & Stress",
+      description: "For high-achievers and professionals feeling internally exhausted despite appearing functional, we'll develop sustainable patterns for living and working that don't require constant pushing through.",
+      image: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&q=80"
     }
   ];
 
   return (
-    <section className="min-h-screen bg-white px-6 py-20 lg:px-16">
+    <section className="min-h-screen bg-sage-light/20 px-6 py-20 lg:px-16">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
-        <h2 className="text-4xl lg:text-5xl font-display font-medium text-darkGreen text-center mb-16 lg:mb-20">
-          My Specialties
+        <h2 className="text-4xl lg:text-5xl font-display font-medium text-charcoal text-center mb-16 lg:mb-20">
+          Areas of Focus
         </h2>
 
         {/* Specialties Grid */}
@@ -32,15 +32,15 @@ const SpecialtiesSection = () => {
           {specialties.map((specialty, index) => (
             <div 
               key={index} 
-              className="bg-beige-200 border border-beige-300 p-8 lg:p-10 flex flex-col items-center text-center hover:shadow-lg transition-shadow duration-300"
+              className="bg-white border-2 border-cream-200 p-8 lg:p-10 flex flex-col items-center text-center hover:border-terracotta-light hover:shadow-lg transition-all duration-300"
             >
               {/* Title */}
-              <h3 className="text-2xl lg:text-3xl font-display font-medium text-darkGreen mb-6">
+              <h3 className="text-2xl lg:text-3xl font-display font-medium text-terracotta mb-6">
                 {specialty.title}
               </h3>
 
               {/* Description */}
-              <p className="text-base lg:text-lg text-darkGreen font-body leading-relaxed mb-8">
+              <p className="text-base lg:text-lg text-charcoal-light font-body leading-relaxed mb-8">
                 {specialty.description}
               </p>
 

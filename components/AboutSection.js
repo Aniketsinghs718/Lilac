@@ -2,25 +2,25 @@ import Image from 'next/image';
 
 const AboutSection = () => {
   return (
-    <section className="min-h-screen bg-beige-100 px-6 py-20 lg:px-16">
+    <section className="min-h-screen bg-white px-6 py-20 lg:px-16">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           {/* Left Side - Text Content */}
           <div className="w-full lg:w-1/2 space-y-8">
-            <h2 className="text-4xl lg:text-5xl font-display font-medium text-darkGreen leading-tight">
-              Live a fulfilling life.
+            <h2 className="text-4xl lg:text-5xl font-display font-medium text-charcoal leading-tight">
+              You deserve more than just pushing through.
             </h2>
             
-            <p className="text-lg lg:text-xl text-darkGreen font-body leading-relaxed">
-              Life can be challenging—especially when you're trying to balance your personal and professional life.
+            <p className="text-lg lg:text-xl text-charcoal-light font-body leading-relaxed">
+              Maybe you're functioning on the outside—meeting deadlines, showing up, keeping it together—but inside, you're exhausted. Anxious. Stuck in overthinking or bracing for the next thing to go wrong.
             </p>
             
-            <p className="text-lg lg:text-xl text-darkGreen font-body leading-relaxed">
-              It's easy to feel like you're alone in facing these challenges, but I want you to know that I'm here to help.
+            <p className="text-lg lg:text-xl text-charcoal-light font-body leading-relaxed">
+              If past experiences are affecting your relationships, confidence, or sense of safety, therapy can help you reconnect with yourself and build a life that feels sustainable, not just survivable.
             </p>
 
-            <button className="inline-flex items-center gap-3 px-8 py-4 border-2 border-darkGreen text-darkGreen font-medium text-base hover:bg-darkGreen hover:text-white transition-all duration-300 uppercase tracking-wider mt-6">
-              GET IN TOUCH
+            <button className="inline-flex items-center gap-3 px-8 py-4 bg-sage text-white font-medium text-base hover:bg-sage-dark transition-all duration-300 uppercase tracking-wider mt-6">
+              START THERAPY
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
